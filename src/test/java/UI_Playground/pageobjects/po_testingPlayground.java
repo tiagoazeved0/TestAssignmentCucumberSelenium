@@ -1,4 +1,4 @@
-package pageobjects;
+package UI_Playground.pageobjects;
 
 public class po_testingPlayground {
 

@@ -1,16 +1,12 @@
-package steps;
+package UI_Playground.steps;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
-import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.testingPlayground;
-import utils.DriversUtil;
+import UI_Playground.pages.testingPlayground;
+
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 
 
@@ -73,10 +69,4 @@ public class StepDefinitions {
     public void weWaitUntilSeeingTheText(String text) {
         testingPlayground.waitUntilSeeingText(text);
     }
-
-
-//    @Then("we confirm we see the button appearing after delay")
-//    public void weConfirmWeSeeTheButtonAppearingAfterDelay() {
-//        testingPlayground.confirmWeSeeTheButtonAfterDelay();
-//    }
 }

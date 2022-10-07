@@ -1,0 +1,495 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-07T08:21:54.021Z",
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "ui-testing-playground---feature-5---ajax-data;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24535726000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that I open the browser with the url \"http://www.uitestingplayground.com/home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.uitestingplayground.com/home\"",
+                  "offset": 37
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 705444000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we press the option \"AJAX Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AJAX Data\"",
+                  "offset": 20
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheOption(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 412135700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "we press the button triggering the AJAX Request",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheButtonTriggeringTheAJAXRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15170548200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "we wait until seeing the text \"Data loaded with AJAX get request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Data loaded with AJAX get request\"",
+                  "offset": 30
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.weWaitUntilSeeingTheText(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UIFeatures"
+          },
+          {
+            "name": "@Feature5"
+          },
+          {
+            "name": "@teste"
+          }
+        ]
+      }
+    ],
+    "name": "UI Testing Playground - Feature 5 - AJAX Data",
+    "description": "",
+    "id": "ui-testing-playground---feature-5---ajax-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI_Playground/AjaxData.feature",
+    "tags": [
+      {
+        "name": "@UIFeatures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-07T08:22:35.050Z",
+        "line": 12,
+        "name": "Clicking the blue button between 3 buttons that have same class",
+        "description": "",
+        "id": "ui-testing-playground---feature-2---class-attribute;clicking-the-blue-button-between-3-buttons-that-have-same-class;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 578920200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "that I open the browser with the url \"http://www.uitestingplayground.com/home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.uitestingplayground.com/home\"",
+                  "offset": 37
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669705900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we press the option \"Class Attribute\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Class Attribute\"",
+                  "offset": 20
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheOption(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204438000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we click the button that contains the value \"btn-primary\" in the attribute \"class\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"btn-primary\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"class\"",
+                  "offset": 75
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.weClickTheButtonThatContainsTheValueInTheAttribute(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@UIFeatures"
+          }
+        ]
+      }
+    ],
+    "name": "UI Testing Playground - Feature 2 - Class Attribute",
+    "description": "",
+    "id": "ui-testing-playground---feature-2---class-attribute",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI_Playground/ClassAttribute.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UIFeatures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-07T08:22:36.639Z",
+        "line": 10,
+        "name": "Clicking a button without recording its element by the Dynamic ID",
+        "description": "",
+        "id": "ui-testing-playground---feature-1---dynamic-id;clicking-a-button-without-recording-its-element-by-the-dynamic-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Primary button pressed}\n  (Session info: chrome\u003d105.0.5195.127): Primary button pressed\nBuild info: version: \u00274.1.1\u0027, revision: \u0027e8fcc2cecf\u0027\nSystem info: host: \u0027L-5CD112RXXB\u0027, ip: \u0027192.168.1.89\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a68ce3493370c16a26f4ac749094f1d1, get {url\u003dhttp://www.uitestingplayground.com/home}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\TIAGO~1.MIN\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64778/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a68ce3493370c16a26f4ac749094f1d1\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\r\n\tat net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:196)\r\n\tat UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(StepDefinitions.java:24)\r\n\tat ✽.that I open the browser with the url \"http://www.uitestingplayground.com/home\"(file:///C:/Users/tiago.mina-azevedo/Documents/UIandAPIProject/TestAssignment/src/test/resources/features/UI_Playground/DynamicID.feature:5)\r\n",
+              "duration": 34677400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "that I open the browser with the url \"http://www.uitestingplayground.com/home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.uitestingplayground.com/home\"",
+                  "offset": 37
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13737700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "we press the option \"Dynamic ID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dynamic ID\"",
+                  "offset": 20
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheOption(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11009100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "we click the button with the Dynamic ID with success",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.weClickTheButtonWithTheDynamicIDWithSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@UIFeatures"
+          },
+          {
+            "name": "@teste2"
+          }
+        ]
+      }
+    ],
+    "name": "UI Testing Playground - Feature 1 - Dynamic ID",
+    "description": "",
+    "id": "ui-testing-playground---feature-1---dynamic-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI_Playground/DynamicID.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-07T08:22:36.890Z",
+        "line": 14,
+        "name": "Avoiding clicking the Green Button twice",
+        "description": "",
+        "id": "ui-testing-playground---feature-3---hiddenlayers;avoiding-clicking-the-green-button-twice;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 362751400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that I open the browser with the url \"http://www.uitestingplayground.com/home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.uitestingplayground.com/home\"",
+                  "offset": 37
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669146500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we press the option \"Hidden Layers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hidden Layers\"",
+                  "offset": 20
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheOption(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234110300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "we click the Hidden Layers button",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.weClickTheHiddenLayersButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197163800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "we click the Hidden Layers button",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.weClickTheHiddenLayersButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81974900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "we confirm if the green button wasn\u0027t pressed twice",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.weConfirmIfTheGreenButtonWasnTPressedTwice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UIFeatures"
+          },
+          {
+            "name": "@Feature3"
+          }
+        ]
+      }
+    ],
+    "name": "UI Testing Playground - Feature 3 - HiddenLayers",
+    "description": "",
+    "id": "ui-testing-playground---feature-3---hiddenlayers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI_Playground/HiddenLayers.feature",
+    "tags": [
+      {
+        "name": "@UIFeatures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-07T08:22:38.632Z",
+        "line": 13,
+        "name": "Waiting for the Load Delay to find desired button",
+        "description": "",
+        "id": "ui-testing-playground---feature-4---loaddelay;waiting-for-the-load-delay-to-find-desired-button;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 456943800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that I open the browser with the url \"http://www.uitestingplayground.com/home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.uitestingplayground.com/home\"",
+                  "offset": 37
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5723639400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we press the option \"Load Delay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Load Delay\"",
+                  "offset": 20
+                }
+              ],
+              "location": "UI_Playground.steps.StepDefinitions.wePressTheOption(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 427794900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "we wait until the end of the load spinner and click the button",
+            "match": {
+              "location": "UI_Playground.steps.StepDefinitions.weWaitUntilTheEndOfTheLoadSpinner()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UIFeatures"
+          },
+          {
+            "name": "@Feature4"
+          }
+        ]
+      }
+    ],
+    "name": "UI Testing Playground - Feature 4 - LoadDelay",
+    "description": "",
+    "id": "ui-testing-playground---feature-4---loaddelay",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI_Playground/LoadDelay.feature",
+    "tags": [
+      {
+        "name": "@UIFeatures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

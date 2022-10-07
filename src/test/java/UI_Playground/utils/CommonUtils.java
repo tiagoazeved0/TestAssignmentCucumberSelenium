@@ -1,4 +1,4 @@
-package utils;
+package UI_Playground.utils;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -6,9 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
-import java.time.temporal.TemporalUnit;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 import static org.testng.AssertJUnit.assertEquals;
@@ -128,4 +126,8 @@ public class CommonUtils {
 
         return wait;
     }
+
+//    public static handleAlertPop() {
+//
+//    };
 }

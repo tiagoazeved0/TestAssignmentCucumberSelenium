@@ -1,14 +1,13 @@
-package pages;
+package UI_Playground.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pageobjects.po_testingPlayground;
+import UI_Playground.pageobjects.po_testingPlayground;
 
-import static utils.CommonUtils.*;
-import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
+import static UI_Playground.utils.CommonUtils.*;
 
 
 public class testingPlayground {
@@ -39,8 +38,9 @@ public class testingPlayground {
         String xpath = createXpath("//button[contains(@", attribute, ",'", value, "')]");
 
         // We find the correct element and use the click action.
-        clickButtonCheckClicked(xpath);
+        clickButton(xpath);
     }
+
 
     public void pressingHiddenLayersButton() {
         clickHiddenLayersButton(po_testingPlayground.button);

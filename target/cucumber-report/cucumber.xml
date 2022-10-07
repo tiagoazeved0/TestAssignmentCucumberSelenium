@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="51.492">
+    <testcase classname="UI Testing Playground - Feature 5 - AJAX Data" name="_2" time="41.001">
+        <system-out><![CDATA[Given that I open the browser with the url "http://www.uitestingplayground.com/home".passed
+When we press the option "AJAX Data"........................................passed
+And we press the button triggering the AJAX Request.........................passed
+Then we wait until seeing the text "Data loaded with AJAX get request"......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UI Testing Playground - Feature 2 - Class Attribute" name="Clicking the blue button between 3 buttons that have same class" time="1.568">
+        <system-out><![CDATA[Given that I open the browser with the url "http://www.uitestingplayground.com/home".passed
+When we press the option "Class Attribute"..................................passed
+And we click the button that contains the value "btn-primary" in the attribute "class".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UI Testing Playground - Feature 1 - Dynamic ID" name="Clicking a button without recording its element by the Dynamic ID" time="0.237">
+        <failure message="unexpected alert open: {Alert text : Primary button pressed}&#10;  (Session info: chrome=105.0.5195.127): Primary button pressed&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'L-5CD112RXXB', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a68ce3493370c16a26f4ac749094f1d1, get {url=http://www.uitestingplayground.com/home}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TIAGO~1.MIN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64778/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a68ce3493370c16a26f4ac749094f1d1" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given that I open the browser with the url "http://www.uitestingplayground.com/home".failed
+When we press the option "Dynamic ID".......................................skipped
+Then we click the button with the Dynamic ID with success...................skipped
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Primary button pressed}
+  (Session info: chrome=105.0.5195.127): Primary button pressed
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'L-5CD112RXXB', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a68ce3493370c16a26f4ac749094f1d1, get {url=http://www.uitestingplayground.com/home}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\TIAGO~1.MIN\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64778/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a68ce3493370c16a26f4ac749094f1d1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:196)
+	at UI_Playground.steps.StepDefinitions.thatIOpenTheBrowserWithTheUrl(StepDefinitions.java:24)
+	at ✽.that I open the browser with the url "http://www.uitestingplayground.com/home"(file:///C:/Users/tiago.mina-azevedo/Documents/UIandAPIProject/TestAssignment/src/test/resources/features/UI_Playground/DynamicID.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="UI Testing Playground - Feature 3 - HiddenLayers" name="Avoiding clicking the Green Button twice" time="1.722">
+        <system-out><![CDATA[Given that I open the browser with the url "http://www.uitestingplayground.com/home".passed
+When we press the option "Hidden Layers"....................................passed
+And we click the Hidden Layers button.......................................passed
+And we click the Hidden Layers button.......................................passed
+Then we confirm if the green button wasn't pressed twice....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UI Testing Playground - Feature 4 - LoadDelay" name="Waiting for the Load Delay to find desired button" time="6.719">
+        <system-out><![CDATA[Given that I open the browser with the url "http://www.uitestingplayground.com/home".passed
+When we press the option "Load Delay".......................................passed
+Then we wait until the end of the load spinner and click the button.........passed
+]]></system-out>
+    </testcase>
+</testsuite>

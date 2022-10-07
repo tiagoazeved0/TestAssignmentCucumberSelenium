@@ -8,16 +8,16 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/UI_Playground",
-        glue = {"steps"},
+        glue = {"UI_Playground.steps"},
         //tags = {"@DemoTestRun", "not E2E"},
-        tags = {"@teste2"},
+        tags = {"@UIFeatures"},
         plugin = {"pretty", "html:target/cucumber-report",
                 "json:target/cucumber-report/cucumber.json",
                 "junit:target/cucumber-report/cucumber.xml"}
 
 )
 
-public class TestRunner2 {
+public class TestRunner {
 }
 
 
